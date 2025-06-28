@@ -6,13 +6,13 @@ export let appcontext = createContext()
 function Context_api({ children }) {
 
     let list = ["hub", "about", "projects", "services", "contact"]
-    let [active_list , setactive_list] = useState("hub")
+    let [active_list, setactive_list] = useState("hub")
 
 
     return (
         <appcontext.Provider value={{
             list,
-            active_list,setactive_list
+            active_list, setactive_list
         }}>
             {children}
         </appcontext.Provider>

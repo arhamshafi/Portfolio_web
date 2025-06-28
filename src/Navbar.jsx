@@ -16,8 +16,10 @@ function Navbar() {
           )
         }
       </ul>
-      <div className='cursor-context-menu hover:bg-black/80 transition-all duration-150 ease-linear select-none active:scale-95 tra flex justify-center items-center gap-3 bg-red-500 rounded-xl text-white text-[10px] py-[8px] px-3'>
-        <div className='w-[8px] h-[8px] bg-green-500 rounded-full '></div>
+      <div className='cursor-context-menu hover:bg-black/80 transition-all duration-150 ease-linear select-none active:scale-95 tra flex justify-center items-center gap-3 bg-red-500 rounded-xl text-white text-[10px] py-[5px] px-3'>
+        <div className='w-[8px] h-[8px] bg-green-500 bsg rounded-full relative '>
+          <div className='w-full h-full bg-green-600 bsg g_dot_anime top-0 left-0 rounded-full absolute '></div>
+        </div>
         <p className='tracking-[1px]'> Open For Work</p>
       </div>
     </div>
