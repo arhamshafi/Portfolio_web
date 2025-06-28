@@ -7,7 +7,7 @@ function Navbar() {
   let { list, active_list, setactive_list } = useContext(appcontext)
 
   return (
-    <div className='w-[90%] transition-all duration-300 ease-in-out z-20 fixed  top-10  h-[45px] rounded-2xl justify-between shadow-lg bg-black text-white flex items-center px-3'>
+    <div className='w-[90%] transition-all duration-300 ease-in-out z-20 fixed  top-5  h-[45px] rounded-2xl justify-between shadow-lg bg-black text-white flex items-center px-3'>
       <div className='flex justify-center items-center gap-2'><Slack className='text-red-600' /><p className='font-bold cursor-context-menu'>Portfolio.Ar</p> </div>
       <ul className=' flex justify-center capitalize items-center gap-4 text-md '>
         {

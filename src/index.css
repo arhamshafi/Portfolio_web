@@ -4,20 +4,38 @@
 
 * {
   font-family: 'Inter', sans-serif;
-  }
-.g_dot_anime{
-  animation:g_dot_anime 1.5s infinite ease-out ;
 }
-@keyframes g_dot_anime{
-  from{
+
+.g_dot_anime {
+  animation: g_dot_anime 1.5s infinite ease-out;
+}
+
+@keyframes g_dot_anime {
+  from {
     transform: scale(0);
     opacity: 1;
   }
-  to{
+
+  to {
     transform: scale(3);
     opacity: 0;
   }
 }
-.bsg{
+
+.bsg {
   box-shadow: .1px .1px 5px green;
+}
+
+.tr_r {
+  animation: tr_r 10s infinite linear;
+}
+
+@keyframes tr_r {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
