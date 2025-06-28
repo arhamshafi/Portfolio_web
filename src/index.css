@@ -23,7 +23,13 @@
 }
 
 .bsg {
-  box-shadow: .1px .1px 5px green;
+  box-shadow: .1px .1px 5px 0px green;
+}
+.bsb {
+box-shadow: 2px 2px 10px 0px gray , -1px -1px 10px 0px gray;
+}
+.bsr {
+box-shadow: .1px .1px 5px red;
 }
 
 .tr_r {
@@ -44,4 +50,15 @@
 }
 .tw{
   text-shadow: .1px .1px 2px white;
+}
+.anime_yx{
+  animation: anime_yx 1s infinite alternate ease-in-out;
+}
+@keyframes anime_yx{
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(5px);
+  }
 }
